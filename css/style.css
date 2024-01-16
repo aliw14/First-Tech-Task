@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol, Noto Color Emoji;
+}
+.background-img {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+header {
+  text-align: center;
+  padding: 18rem 0;
+  align-items: center;
+}
+.container {
+  text-align: center;
+}
+h1 {
+  font-size: 5.5rem;
+}
+h3 {
+  font-size: 1.7rem;
+}
+a {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #1d809f;
+  background-color: #1d809f;
+  padding: 1.25rem 2.5rem;
+  border-radius: 10px;
+}
+a:hover {
+  background-color: #186c86;
+  border: #186c86;
+}
